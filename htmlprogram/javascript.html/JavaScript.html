@@ -1,0 +1,157 @@
+JavaScript Basics (Step by Step)
+1. Output in JavaScript
+
+Used to display information.
+
+Using console.log()
+console.log("Hello World");
+
+Output:
+
+Hello World
+Using document.write()
+document.write("Welcome to JavaScript");
+2. Input in JavaScript
+
+Used to get data from the user.
+
+Using prompt()
+let name = prompt("Enter your name:");
+console.log(name);
+
+Input: Subash
+
+Output:
+
+Subash
+3. Operators in JavaScript
+Arithmetic Operators
+let a = 10;
+let b = 5;
+
+console.log(a + b); // 15
+console.log(a - b); // 5
+console.log(a * b); // 50
+console.log(a / b); // 2
+console.log(a % b); // 0
+Operator	Meaning
++	Addition
+-	Subtraction
+*	Multiplication
+/	Division
+%	Modulus
+4. If Statement
+
+Executes code when a condition is true.
+
+let age = 20;
+
+if (age >= 18) {
+    console.log("Eligible to Vote");
+}
+
+Output:
+
+Eligible to Vote
+5. If-Else Statement
+
+Checks two conditions.
+
+let age = 16;
+
+if (age >= 18) {
+    console.log("Eligible to Vote");
+} else {
+    console.log("Not Eligible");
+}
+
+Output:
+
+Not Eligible
+6. Else If Ladder
+
+Checks multiple conditions.
+
+let marks = 75;
+
+if (marks >= 90) {
+    console.log("Grade A");
+}
+else if (marks >= 60) {
+    console.log("Grade B");
+}
+else {
+    console.log("Grade C");
+}
+
+Output:
+
+Grade B
+7. Looping Concepts
+For Loop
+
+Print numbers 1 to 5.
+
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}
+
+Output:
+
+1
+2
+3
+4
+5
+While Loop
+let i = 1;
+
+while (i <= 5) {
+    console.log(i);
+    i++;
+}
+
+Output:
+
+1
+2
+3
+4
+5
+Do-While Loop
+let i = 1;
+
+do {
+    console.log(i);
+    i++;
+} while (i <= 5);
+
+Output:
+
+1
+2
+3
+4
+5
+Complete Simple Program
+let num = prompt("Enter a number:");
+
+if (num % 2 == 0) {
+    console.log("Even Number");
+} else {
+    console.log("Odd Number");
+}
+
+Input: 8
+
+Output:
+
+Even Number
+Summary
+Input → prompt()
+Output → console.log(), document.write()
+Operators → + - * / %
+Decision Making → if, if-else, else-if
+Looping → for, while, do-while
+
+These are the core JavaScript concepts beginners should learn first.

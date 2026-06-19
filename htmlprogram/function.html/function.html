@@ -1,0 +1,134 @@
+In JavaScript, a **function** is a block of code that performs a specific task. Functions help avoid repeating code.
+
+## Function Syntax
+
+```javascript
+function functionName() {
+    // code
+}
+```
+
+Example:
+
+```javascript
+function greet() {
+    console.log("Hello");
+}
+
+greet();
+```
+
+Output:
+
+```
+Hello
+```
+
+# 4 Types of Functions
+
+## 1. No Argument, No Return Value
+
+The function does not take any input and does not return anything.
+
+```javascript
+function showMessage() {
+    console.log("Welcome");
+}
+
+showMessage();
+```
+
+Output:
+
+```
+Welcome
+```
+
+---
+
+## 2. Argument, No Return Value
+
+The function takes input but does not return anything.
+
+```javascript
+function displayName(name) {
+    console.log("Name: " + name);
+}
+
+displayName("Subash");
+```
+
+Output:
+
+```
+Name: Subash
+```
+
+---
+
+## 3. No Argument, Return Value
+
+The function does not take input but returns a value.
+
+```javascript
+function getNumber() {
+    return 100;
+}
+
+let num = getNumber();
+console.log(num);
+```
+
+Output:
+
+```
+100
+```
+
+---
+
+## 4. Argument, Return Value
+
+The function takes input and returns a value.
+
+```javascript
+function add(a, b) {
+    return a + b;
+}
+
+let result = add(10, 20);
+console.log(result);
+```
+
+Output:
+
+```
+30
+```
+
+## Summary Table
+
+| Type                         | Argument | Return Value |
+| ---------------------------- | -------- | ------------ |
+| No Argument, No Return Value | ❌        | ❌            |
+| Argument, No Return Value    | ✅        | ❌            |
+| No Argument, Return Value    | ❌        | ✅            |
+| Argument, Return Value       | ✅        | ✅            |
+
+### Simple Example
+
+```javascript
+function square(n) {
+    return n * n;
+}
+
+console.log(square(5));
+```
+
+Output:
+
+```
+25
+```
+
+These are the four basic types of functions commonly asked in JavaScript interviews and exams.

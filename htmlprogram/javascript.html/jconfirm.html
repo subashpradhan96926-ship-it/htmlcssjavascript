@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>confirm example</title>
+</head>
+<body>
+	
+	<button onclick="checkconfirm()"> Delete file </button>
+
+<script>
+function checkconfirm(){
+	var result = confirm("are you sure you want ti delete?");
+
+	if (result) {
+		alert("file deleted");
+	}
+	else{
+		alert("deletion cancelled!");
+	}
+}
+</script>
+
+</body>
+</html>
